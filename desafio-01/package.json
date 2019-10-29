@@ -1,0 +1,15 @@
+{
+  "name": "desafio1",
+  "version": "1.0.0",
+  "description": "desafio 1 da bootcamp9",
+  "main": "index.js",
+  "author": "mobytes",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  }
+}
