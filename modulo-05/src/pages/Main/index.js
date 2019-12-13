@@ -37,7 +37,6 @@ export default class Main extends Component {
     e.preventDefault();
 
     this.setState({ loading: true });
-
     const { newRepo, repositories } = this.state;
 
     const response = await api.get(`/repos/${newRepo}`);
